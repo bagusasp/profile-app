@@ -4,7 +4,68 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Profil</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E8E8E8;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #F4F4F2;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .profile {
+    text-align: center;
+  }
+  
+  .profile img {
+    max-width: 150px;
+    border-radius: 50%;
+  }
+  
+  .profile h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .profile p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .social-media {
+    text-align: center;
+  }
+  
+  .social-media li {
+    display: inline-block;
+    width: 25%;
+    margin: 0 auto;
+  }
+  
+  .social-media img {
+    max-width: 20%;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #BBBFCA;
+    padding: 20px;
+  }
+  </style>
 </head>
 <body>
   <header>
